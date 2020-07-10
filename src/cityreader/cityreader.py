@@ -8,7 +8,7 @@ class City:
 		self.lat = lat
 		self.lon = lon
 	def __str__(self):
-	 return f'City name: {self.name}, Co-ords: {self.lat}, {self.lon})'
+	 return f'City( {self.name}, {self.lat}, {self.lon}))'
 	 
 
 

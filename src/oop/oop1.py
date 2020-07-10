@@ -24,27 +24,27 @@ class Vehicle:
         pass
 
 # Sky vehicles
-class FlightVehicle:
+class FlightVehicle(Vehicle):
     def __init__(self):
         super().__init__()
 
-class Airplane:
+class Airplane(FlightVehicle):
     def __init__(self):
         super().__init__()
 
-class Starship:
+class Starship(FlightVehicle):
     def __init__(self):
         super().__init__()
 
 # Ground Vehicles
-class GroundVehicle:
+class GroundVehicle(Vehicle):
     def __init__(self):
         super().__init__()
 
-class Car:
+class Car(GroundVehicle):
     def __init__(self):
         super().__init__()
 
-class Motorcycle:
+class Motorcycle(GroundVehicle):
     def __init__(self):
         super().__init__()
